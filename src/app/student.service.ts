@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class StudentService {
 
-  private baseUrl: string = 'http://localhost:8080/api/';
+  private baseUrl: string = 'http://springbootstudentapp-env-1.eba-crifwi33.us-east-2.elasticbeanstalk.com/api/';
   constructor(private http:HttpClient) {}
 
     getStudentList():Observable<any>{

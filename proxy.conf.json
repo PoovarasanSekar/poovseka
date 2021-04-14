@@ -1,6 +1,6 @@
 {
     "/api": {
-      "target": "http://localhost:8080",
+      "target": "http://springbootstudentapp-env-1.eba-crifwi33.us-east-2.elasticbeanstalk.com",
       "secure": false
     }
   }
